@@ -1,29 +1,45 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./src/output.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./src/output.css" />
+  </head>
+  <body>
+    <header
+      class="max-w-[1400px] m-auto flex py-[25px] px-[20px] justify-between md:justify-between xl:max-w-[1280px] md:px-[35px]"
+    >
+      <div>
+        <img src="./images/Britlex.png" alt="" />
+      </div>
+      <nav class="hidden md:flex md:gap-[30px] font-[500]">
+        <p>Home</p>
+        <p>Skills</p>
+        <p>About us</p>
+        <p>Pricing</p>
+        <p>Contacts</p>
+      </nav>
+      <button class="hidden md:block">Lets talk</button>
+      <div class="lg:hidden xl:hidden">
+        <img src="./images/Group 28.png" alt="" />
+      </div>
+    </header>
 
-     <header class="max-w-[1400px] m-auto flex py-[25px] px-[20px] justify-between md:justify-between xl:max-w-[1280px] ">
-        <div>
-            <img src="./images/Britlex.png" alt="">
+    <main>
+      <section class="px-[15px] flex flex-col md:flex-row-reverse max-w-[1170px] m-auto justify-between md:px-[35px] lg:items-center">
+        <div class="md:w-[50%]">
+          <img src="./images/Learning languages-bro 1.png" alt="" />
         </div>
-        <nav class="hidden md:flex md:gap-[30px] font-[500]">
-            <p>Home</p>
-            <p>Skills</p>
-            <p>About us</p>
-            <p>Pricing</p>
-            <p>Contacts</p>
-        </nav>
-        <button class="hidden md:block">Lets talk</button>
-        <div class="lg:hidden xl:hidden">
-            <img src="./images/Group 28.png" alt="">
+        <div class="my-[30px] flex flex-col gap-[25px] md:w-[280px] md:items-start items-center md:gap-[20px]">
+          <p class="font-bold text-[30px] text-center md:text-[36px] md:text-start lg:text-[50px]">Learn Any Foreign Language</p>
+          <p class="text-[#8F95A5] text-[15px] text-center md:text-start lg:text-[20px]">
+            With our teachers who write a program for each student, you will be
+            able to make your first sketch after the first lesson.
+          </p>
+          <button class="bg-[#263238] text-white font-[500] text-[18px] py-[25px] w-[235px] rounded-[5px] ">Get started</button>
         </div>
-     </header>
-    
-</body>
+      </section>
+    </main>
+  </body>
 </html>
